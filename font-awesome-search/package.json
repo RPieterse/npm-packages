@@ -1,0 +1,39 @@
+{
+  "name": "fa-search",
+  "version": "1.0.3",
+  "description": "Utils to search fontawesome icons",
+  "main": "./lib/bundle.js",
+  "types": "./lib",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "keywords": [
+    "font",
+    "awesome",
+    "icon",
+    "search"
+  ],
+  "author": "Rohan Pieterse",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpieterse/font-awesome-search.git"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.3.0",
+    "@fortawesome/free-regular-svg-icons": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0"
+  }
+}

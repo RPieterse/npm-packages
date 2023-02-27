@@ -1,0 +1,27 @@
+{
+  "name": "img-from-url",
+  "version": "1.0.3",
+  "description": "Download any url from specified URL",
+  "main": "./lib/app.js",
+  "types": "./lib/app.d.ts",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "keywords": [
+    "image",
+    "download",
+    "url"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohanpieterse/download-img-from-url.git"
+  },
+  "author": "Rohan Pieterse",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
